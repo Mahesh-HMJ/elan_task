@@ -86,7 +86,11 @@ a {
     transform: translateY(-20px);
     cursor: pointer;
   }
-  
+  @media only screen and (max-width: 425px) {
+    .heading, .elan-sponsor-heading p {
+        font-size: 3rem;
+    }
+  }
   @keyframes scroll-1 {
     0% {
       transform: translateX(-320%);
