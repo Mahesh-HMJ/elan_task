@@ -41,6 +41,7 @@
     .navbar-expand-lg .navbar-nav {
         display: flex !important;
         flex-direction: row;
+        flex-wrap: wrap;
     }
     .navbar-expand-lg .navbar-nav a{
         padding-left: 10px;
